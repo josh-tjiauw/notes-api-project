@@ -1,0 +1,42 @@
+body{
+  background-color: white;
+}
+.header-text{
+  font-family: 'Staatliches', cursive;
+  color: black;
+}
+
+.container-fluid {
+  position: relative;
+  height: 900px;
+}
+
+#pg-1-welcome{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  transform: translateX(-50%)
+}
+
+.navbar {
+  background-color: darkmagenta;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 400px;
+  font-size: 30px;
+  justify-content: center;
+}
+
+input, label{
+  width: 100%;
+}
+
+.btn-outline-info {
+  color: white;
+  border: white solid;
+}
